@@ -5,15 +5,17 @@ public class Course{
    int code;
    String prefix;
    int note ;
+   int verbal_note;
 
 
-   Course( String name, int cod,String prefix){
+   Course( String name, int cod,String prefix,int note,int verbal_note){
 
        this.name= name;
        this.code= code;
        this.prefix= prefix;
        this.note= 0;
        this.teacher= teacher;
+       this.verbal_note=verbal_note;
 
    }
 
@@ -29,6 +31,17 @@ public class Course{
            System.out.println("Öğretmen ile ders uyuşmuyor!");
        }
    }
+
+
+
+
+
+
+
+
+
+
+
 
     void printTeacher(){
 
