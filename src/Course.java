@@ -8,13 +8,12 @@ public class Course{
    int verbal_note;
 
 
-   Course( String name, int cod,String prefix,int note,int verbal_note){
+   Course( String name, int code,String prefix,int note,int verbal_note){
 
        this.name= name;
        this.code= code;
        this.prefix= prefix;
-       this.note= 0;
-       this.teacher= teacher;
+      this.note=note;
        this.verbal_note=verbal_note;
 
    }
